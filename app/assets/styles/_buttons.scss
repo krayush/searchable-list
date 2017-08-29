@@ -1,0 +1,43 @@
+.btn {
+    display: inline-block;
+    height: 36px;
+    line-height: 32px;
+    cursor: pointer;
+    padding: 0 15px;
+    color: $white;
+    background-color: #5b97d2;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    opacity: 0.8;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.btn-blue {
+    @extend .btn;
+    background-color: #69b3e9;
+}
+
+.btn-grey {
+    @extend .btn;
+    box-sizing: border-box;
+    color: #91969d;
+    border: 1px solid #cecece;
+    background-color: #f5f6f7;
+}
+
+.disabled {
+    background: #d2d2d2;
+    color: #828282;
+}
+
+.btn-big {
+    @extend .btn;
+    width: 330px;
+    line-height: 52px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 20px;
+}

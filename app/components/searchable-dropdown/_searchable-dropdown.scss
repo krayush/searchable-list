@@ -1,0 +1,48 @@
+.dropdown-container {
+    position: relative;
+    &.active {
+        input[type='text'] {
+            background-color: white;
+        }
+    }
+    input[type='text'] {
+        border-radius: 2px;
+        width: 100%;
+        background-color: #DDDDDD;
+        line-height: 30px;
+        padding: 0 10px;
+        outline: none;
+        border: 1px solid #EEEEEE;
+    }
+    i {
+        font-size: 12px;
+        position: absolute;
+        right: 15px;
+        top: 0;
+        line-height: 36px;
+    }
+    .suggestions {
+        background-color: white;
+        max-height: 80px;
+        top: 100%;
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        z-index: 1;
+        position: absolute;
+        border: 1px solid #EEE;
+        border-top: none;
+        display: none;
+        &.visible {
+            display: block;
+        }
+        li {
+            line-height: 30px;
+            padding-left: 10px;
+            &:hover {
+                background-color: #EEE;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+#app {
+    height: 100%;
+    .app-wrapper {
+        height: 100%;
+    }
+    .main-container {
+        float: left;
+        height: calc(100% - #{$header-height});
+        width: calc(100% - #{$sidebar-width});
+    }
+    .button-wrapper {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
