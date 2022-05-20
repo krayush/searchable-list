@@ -5,7 +5,7 @@ import App from './app/app';
 
 console.log("Testing");
 console.log("Testing");
-console.log("Testing");
+console.log("This is just for Testing");
 console.log("Testing");
 console.log("Testing");
 
