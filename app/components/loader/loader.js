@@ -1,5 +1,9 @@
 import React from 'react';
 import './_loader.scss';
+
+console.log("Testing");
+console.log("Testing");
+
 export default class Loader extends React.Component {
     render() {
         return (
